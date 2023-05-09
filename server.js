@@ -41,5 +41,5 @@ app.post('/users/login',async(req,res)=>{
         res.status(500).send()
     }
 })
-
-app.listen(3000);
+const PORT =  3000
+app.listen(PORT);
